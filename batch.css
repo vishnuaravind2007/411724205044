@@ -1,0 +1,101 @@
+body {
+    color: rgb(219, 192, 192);
+    background-color: rgb(71, 63, 63);
+    font-family: Arial, sans-serif;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+h1 {
+    padding: 20px;
+    border: 5px solid white;
+}
+
+button {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1024px) {
+   nav {
+    display: flex;
+    flex-direction: column;
+    gap: 
+    10px;
+}
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+p {
+    font-size: 20px;
+}
+
+#p1 {
+    color: rgb(35, 3, 3);
+    font-weight: bold;
+}
+
+#p2 {
+    font-style: italic;
+    font-size: 30px;
+}
+#p3 {
+    grid-row: 2/3;
+}
+
+.pclass {
+    font-size: x-large;
+}
+
+.grid {
+    display: grid;
+    
+}
+@media (min-width: 768px) {
+    .grid {
+        display:gird;
+        gird-template-columns: 33% 33% 33%;
+    }
+}
+
+.grid div {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.car {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.car img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
